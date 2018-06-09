@@ -19,6 +19,8 @@ listener: used to return the color selected by user
 
 The color selected by the user is reported via the OnColorChangedListener interface.
 
+The file dimens.xml shall be stored under folder res\values.
+
 # Screenshot
 
 The following example is related to a device running JELLY_BEAN_MR1:
