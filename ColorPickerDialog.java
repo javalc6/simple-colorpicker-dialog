@@ -31,14 +31,12 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import livio.rssreader.R;
-
 public class ColorPickerDialog extends Dialog {
 //values for mode:
     public final static int SQUARE_SQUARE = 0;
     public final static int CIRCLE_CIRCLE = 1;
 
-    private final static boolean debug = true;
+    private final static boolean debug = false;
     private final static String tag = "ColorPickerDialog";
 
     private final OnColorChangedListener mListener;
@@ -128,7 +126,7 @@ public class ColorPickerDialog extends Dialog {
             int h = MeasureSpec.getSize(heightMeasureSpec); //getMeasuredHeight();
             int mSwatchLength;
             Resources res = getResources();
-            if (getResources().getBoolean(R.bool.is_tablet)) {
+            if (res.getBoolean(R.bool.is_tablet)) {
                 mSwatchLength = res.getDimensionPixelSize(R.dimen.color_swatch_large);
                 mMarginSize = res.getDimensionPixelSize(R.dimen.color_swatch_margins_large);
             } else {
