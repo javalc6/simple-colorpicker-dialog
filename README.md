@@ -9,13 +9,13 @@ The color selected is displayed as bigger circle or square.
 The dialog is set up by invoking the following constructor:
 ```
 ColorPickerDialog(Context context, int initialColor, String title, int[] colors, int mode, OnColorChangedListener listener)
-
-initialColor: initial selected color
-title: the title of the dialog
-colors: user provided palette
-mode: SQUARE_SQUARE for squares or CIRCLE_CIRCLE for circles
-listener: used to return the color selected by user
 ```
+* initialColor: initial selected color
+* title: the title of the dialog
+* colors: user provided palette
+* mode: SQUARE_SQUARE for squares or CIRCLE_CIRCLE for circles
+* listener: used to return the color selected by user
+
 
 The color selected by the user is reported via the OnColorChangedListener interface.
 
