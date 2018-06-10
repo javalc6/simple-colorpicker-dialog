@@ -13,7 +13,7 @@ ColorPickerDialog(Context context, int initialColor, String title, int[] colors,
 initialColor: initial selected color
 title: the title of the dialog
 colors: user provided palette
-mode: squares or circles
+mode: SQUARE_SQUARE for squares or CIRCLE_CIRCLE for circles
 listener: used to return the color selected by user
 ```
 
@@ -23,7 +23,7 @@ The file dimens.xml shall be stored under folder res\values.
 
 # Screenshot
 
-The following example is related to a device running JELLY_BEAN_MR1:
+The following example is related to a device running JELLY_BEAN_MR1 with mode = CIRCLE_CIRCLE:
 
 
 ![Screenshot](https://raw.githubusercontent.com/javalc6/simple-colorpicker-dialog/master/screenshot_api17.png)
