@@ -23,7 +23,7 @@ The file dimens.xml shall be stored under folder res\values.
 
 # Screenshot
 
-The following example is related to a device running JELLY_BEAN_MR1 with mode = CIRCLE_CIRCLE:
+The following screenshot was taken on a device running JELLY_BEAN_MR1 with mode = CIRCLE_CIRCLE:
 
 
 ![Screenshot](https://raw.githubusercontent.com/javalc6/simple-colorpicker-dialog/master/screenshot_api17.png)
